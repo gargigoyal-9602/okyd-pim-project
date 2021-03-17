@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <path id="ost4ournia" d="M1.268 4.446L0.446 5.268 7.589 12.411 8 12.804 8.411 12.411 15.554 5.268 14.732 4.446 8 11.179z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-912 -1198) translate(530 1178) translate(382 20)">
+                    <mask id="wzxces7ulb" fill="#fff">
+                        <use xlink:href="#ost4ournia"/>
+                    </mask>
+                    <use fill="#000" fill-rule="nonzero" xlink:href="#ost4ournia"/>
+                    <g fill="#000" fill-opacity=".54" mask="url(#wzxces7ulb)">
+                        <path d="M0 0H16V16H0z"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

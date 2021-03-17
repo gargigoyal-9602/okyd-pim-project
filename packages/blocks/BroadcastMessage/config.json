@@ -1,0 +1,61 @@
+{
+  "id": "BroadcastMessage",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/BroadcastMessage",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "BroadcastMessage"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "BroadcastMessage": {
+        "file": "BroadcastMessage.tsx",
+        "extends": "BroadcastMessageController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "BroadcastMessageController",
+            "path": "./BroadcastMessageController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./BroadcastMessageController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "BroadcastMessage"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "BroadcastMessageBlock": {
+        "file": "BroadcastMessageBlock.tsx",
+        "extends": "BroadcastMessageController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "BroadcastMessageController",
+            "path": "./BroadcastMessageController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./BroadcastMessageController"
+          }
+        ]
+      }
+    }
+  }
+}

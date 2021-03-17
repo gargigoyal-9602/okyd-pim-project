@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <path id="aslhhtrlra" d="M0 11.472c0 .644.523 1.167 1.167 1.167h11.666c.644 0 1.167-.523 1.167-1.167V7.194H0v4.278zM4.667 9.82c0-.16.13-.291.291-.291h3.306c.16 0 .292.131.292.291v.973c0 .16-.132.291-.292.291H4.958c-.16 0-.291-.13-.291-.291v-.973zm-3.111 0c0-.16.13-.291.291-.291h1.75c.16 0 .292.131.292.291v.973c0 .16-.131.291-.292.291h-1.75c-.16 0-.291-.13-.291-.291v-.973zM14 2.917v1.166H0V2.917C0 2.273.523 1.75 1.167 1.75h11.666c.644 0 1.167.523 1.167 1.167z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-185 -326) translate(165 96) translate(0 217) translate(20 13)">
+                        <circle cx="12" cy="12" r="12" fill="#22BB9B" fill-rule="nonzero"/>
+                        <g transform="translate(5 5)">
+                            <mask id="qwbprskd5b" fill="#fff">
+                                <use xlink:href="#aslhhtrlra"/>
+                            </mask>
+                            <use fill="#FFF" fill-opacity="0" fill-rule="nonzero" xlink:href="#aslhhtrlra"/>
+                            <g fill="#FFF" mask="url(#qwbprskd5b)">
+                                <path d="M0 0H14V14H0z"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

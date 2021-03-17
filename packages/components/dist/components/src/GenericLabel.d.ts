@@ -1,0 +1,27 @@
+import { FunctionComponent } from "react";
+import { GestureResponderEvent, TextStyle } from "react-native";
+export declare type Props = {
+    mt?: number;
+    mb?: number;
+    ml?: number;
+    mr?: number;
+    pt?: number;
+    pb?: number;
+    pl?: number;
+    pr?: number;
+    fontSize?: number;
+    color?: string;
+    background?: string;
+    style?: TextStyle;
+    numberOfLines?: number | undefined;
+    align?: string;
+    isUpperCase?: boolean;
+    fontFamily?: string;
+    onPress?: (event: GestureResponderEvent) => void;
+    fontWeight?: number | string;
+    lineHeight?: number | string;
+    id?: string;
+    underline?: boolean;
+};
+declare const GenericLabel: FunctionComponent<Props>;
+export default GenericLabel;

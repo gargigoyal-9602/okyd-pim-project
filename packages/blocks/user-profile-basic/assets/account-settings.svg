@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <path id="4iswufrqoa" d="M11.813 6.125h-.657V4.156C11.156 1.865 9.291 0 7 0 4.709 0 2.844 1.865 2.844 4.156v1.969h-.656c-.725 0-1.313.588-1.313 1.313v5.25c0 .724.588 1.312 1.313 1.312h9.624c.725 0 1.313-.588 1.313-1.313v-5.25c0-.724-.588-1.312-1.313-1.312zM7 8.422c.846 0 1.531.685 1.531 1.531 0 .846-.685 1.531-1.531 1.531-.846 0-1.531-.685-1.531-1.53 0-.847.685-1.532 1.531-1.532zm0-6.235c1.086 0 1.969.884 1.969 1.97v1.968H5.03V4.156c0-1.085.883-1.968 1.969-1.968z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-185 -276) translate(165 96) translate(0 167) translate(20 13)">
+                        <circle cx="12" cy="12" r="12" fill="#5AC3F5" fill-rule="nonzero"/>
+                        <g transform="translate(5 5)">
+                            <mask id="bukmm37atb" fill="#fff">
+                                <use xlink:href="#4iswufrqoa"/>
+                            </mask>
+                            <use fill="#FFF" fill-opacity="0" fill-rule="nonzero" xlink:href="#4iswufrqoa"/>
+                            <g fill="#FFF" mask="url(#bukmm37atb)">
+                                <path d="M0 0H14V14H0z"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

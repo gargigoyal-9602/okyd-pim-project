@@ -1,0 +1,26 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-lato;
+
+  margin: 0;
+}
+
+.text-primary-light-xs {
+  @apply text-xs text-primary-light;
+}
+
+.text-primary-light-sm {
+  @apply text-sm text-primary-light;
+}
+
+.text-secondary-lg {
+  @apply text-lg text-secondary-base;
+}
+
+.error {
+  @apply text-xs text-red-600;
+}

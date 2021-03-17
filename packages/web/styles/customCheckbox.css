@@ -1,0 +1,59 @@
+.okyd-container-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.okyd-container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.okyd-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border-radius: 4px;
+  background-color: #eee;
+}
+
+.okyd-container-checkbox:hover input ~ .okyd-checkmark {
+  background-color: #ccc;
+}
+
+.okyd-container-checkbox input:checked ~ .okyd-checkmark {
+  background-color: #1b51e5;
+}
+
+.okyd-checkmark:after {
+  content: '';
+  position: absolute;
+  display: none;
+}
+
+.okyd-container-checkbox input:checked ~ .okyd-checkmark:after {
+  display: block;
+}
+
+.okyd-container-checkbox .okyd-checkmark:after {
+  left: 7px;
+  top: 5px;
+  width: 5px;
+    height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

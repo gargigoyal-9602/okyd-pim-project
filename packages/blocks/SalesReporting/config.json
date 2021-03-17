@@ -1,0 +1,61 @@
+{
+  "id": "SalesReporting",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/SalesReporting",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SalesReporting"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SalesReporting": {
+        "file": "SalesReporting.tsx",
+        "extends": "SalesReportingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SalesReportingController",
+            "path": "./SalesReportingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SalesReportingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SalesReporting"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SalesReportingBlock": {
+        "file": "SalesReportingBlock.tsx",
+        "extends": "SalesReportingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SalesReportingController",
+            "path": "./SalesReportingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SalesReportingController"
+          }
+        ]
+      }
+    }
+  }
+}

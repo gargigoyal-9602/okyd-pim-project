@@ -1,0 +1,71 @@
+/* Use prefix op for all custom class */
+button {
+  @apply font-lato font-bold;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+.button:focus,
+.button:hover {
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  outline: none;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.op-btn-primary {
+  @apply bg-primary-base text-white text-xs px-4 py-3 rounded-lg;
+}
+
+.op-btn-primary-sm {
+  @apply bg-primary-base text-white text-xs px-4 py-2 rounded-lg h-9;
+}
+
+.op-btn-primary-light-sm {
+  @apply bg-transparent-300 text-primary-base text-xs px-4 py-2 rounded-lg h-9;
+}
+
+.op-btn-primary-light {
+  @apply bg-transparent-300 text-primary-base text-xs px-4 py-3 rounded-lg;
+}
+
+.op-btn-primary-transparent {
+  @apply bg-transparent-base text-primary-base text-xs px-0 py-0;
+}
+
+.op-btn-transparent {
+  @apply bg-transparent-base px-0 py-0;
+}
+
+.op-btn-secondary-sm {
+  @apply bg-primary-dealer text-white text-xs px-4 py-2 rounded-lg h-9;
+}
+
+.op-btn-primary-outline {
+  @apply bg-white border border-light-500 text-secondary-200 text-xs px-4 py-3 rounded-lg;
+}
+
+.op-btn-primary-outline-sm {
+  @apply bg-white border border-light-500 text-secondary-200 text-xs px-4 py-2 rounded-lg h-9;
+}
+
+.op-btn-primary:focus {
+  border-color: #5e81f4;
+}
+
+.op-btn-secondary {
+  @apply text-xs px-4 py-3 rounded-lg;
+  background-color: rgba(94, 129, 244, 0.1);
+  color: #5e81f4;
+}
+
+.btn-secondary:focus {
+  border-color: rgba(94, 129, 244, 0.1);
+}
+
+.op-btn-light {
+  @apply bg-light-600 text-primary-light text-xs px-4 py-3 rounded-lg;
+}

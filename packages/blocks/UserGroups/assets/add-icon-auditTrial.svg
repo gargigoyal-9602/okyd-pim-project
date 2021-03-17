@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-1616 -24) translate(242) translate(1374 24)">
+                    <rect width="36" height="36" fill="#5E81F4" fill-rule="nonzero" rx="6"/>
+                    <text fill="#FAFBFF" font-family="fa-solid-900" font-size="16">
+                        <tspan x="10" y="24"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

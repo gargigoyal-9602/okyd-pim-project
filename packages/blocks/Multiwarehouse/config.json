@@ -1,0 +1,61 @@
+{
+  "id": "Multiwarehouse",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Multiwarehouse",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Multiwarehouse"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Multiwarehouse": {
+        "file": "Multiwarehouse.tsx",
+        "extends": "MultiwarehouseController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MultiwarehouseController",
+            "path": "./MultiwarehouseController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MultiwarehouseController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Multiwarehouse"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MultiwarehouseBlock": {
+        "file": "MultiwarehouseBlock.tsx",
+        "extends": "MultiwarehouseController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MultiwarehouseController",
+            "path": "./MultiwarehouseController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MultiwarehouseController"
+          }
+        ]
+      }
+    }
+  }
+}

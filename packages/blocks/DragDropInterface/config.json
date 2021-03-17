@@ -1,0 +1,61 @@
+{
+  "id": "DragDropInterface",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/DragDropInterface",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DragDropInterface"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DragDropInterface": {
+        "file": "DragDropInterface.tsx",
+        "extends": "DragDropInterfaceController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DragDropInterfaceController",
+            "path": "./DragDropInterfaceController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DragDropInterfaceController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "DragDropInterface"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DragDropInterfaceBlock": {
+        "file": "DragDropInterfaceBlock.tsx",
+        "extends": "DragDropInterfaceController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DragDropInterfaceController",
+            "path": "./DragDropInterfaceController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DragDropInterfaceController"
+          }
+        ]
+      }
+    }
+  }
+}

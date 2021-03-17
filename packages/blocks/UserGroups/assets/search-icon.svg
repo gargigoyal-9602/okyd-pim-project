@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#8181A5">
+            <g>
+                <g transform="translate(-1574 -24) translate(242) translate(1332 24)">
+                    <rect width="36" height="36" fill-rule="nonzero" opacity=".1" rx="6"/>
+                    <text font-family="fa-solid-900" font-size="16">
+                        <tspan x="10" y="24"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

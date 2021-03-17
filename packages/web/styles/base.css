@@ -1,0 +1,15 @@
+html,
+body {
+  @apply font-lato text-base;
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.op-rotate {
+  animation: spin 2s linear infinite;
+}

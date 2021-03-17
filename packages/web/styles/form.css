@@ -1,0 +1,81 @@
+
+.field-wrapper label {
+  font-size: 0.875rem;
+  color: #8181a5;
+  margin-bottom: 0;
+}
+
+.field-wrapper input,
+.field-wrapper select {
+  display: block;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+  width: 100%;
+  padding: 5px 0px 10px;
+  letter-spacing: 0.18px;
+  font-size: 0.875rem;
+  color: #1c1d21;
+  font-weight: bold;
+}
+
+.field-wrapper input:focus,
+.field-wrapper select:focus {
+  outline: none;
+}
+
+.field-wrapper select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+.field-wrapper ::-webkit-input-placeholder,
+.field-wrapper :-ms-input-placeholder,
+.field-wrapper ::-ms-input-placeholder,
+.field-wrapper ::placeholder {
+  color: #8181a5;
+}
+
+.links-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.links-wrapper span a {
+  color: #5e81f4;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.transparent-input input {
+  border: none !important;
+}
+
+.transparent-input .MuiInput-underline::before {
+  border-bottom: 1px solid #ccc;
+}
+/********************material ui selct box***********************/
+
+.material-ui-select .css-2b097c-container .css-yk16xz-control{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+}
+.material-ui-select .css-2b097c-container .css-yk16xz-control .css-g1d714-ValueContainer{ 
+  padding-left: 0;
+  letter-spacing: 0.18px;
+  font-size: 0.875rem;
+  color: #1c1d21;
+  font-weight: bold;
+}
+.material-ui-select .css-2b097c-container .css-yk16xz-control .css-1hb7zxy-IndicatorsContainer .css-1okebmr-indicatorSeparator{
+  display:none !important;
+}

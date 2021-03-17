@@ -1,0 +1,79 @@
+/**************************profile setting page ***********************/
+
+.profile-box-wrapper {
+  min-height: calc(100vh - 180px);
+}
+
+.profile-icon-img {
+  position: absolute;
+  right: 0;
+  top: 34px;
+  font-size: 18px;
+}
+
+/**************************************************************/
+
+.status {
+  padding: 0px 15px 0 25px;
+  font-size: 0.875rem;
+  line-height: 35px;
+  border-radius: 8px;
+  background-color: #f5f5fa;
+  color: #8181a5;
+  display: block;
+  box-sizing: border-box;
+  white-space: nowrap;
+  position: relative;
+}
+
+.dots-for-status {
+  height: 8px;
+  position: absolute;
+  width: 8px;
+  border-radius: 50%;
+  top: 14px;
+  left: 9px;
+}
+
+.green-dot {
+  background-color: #7ce7ac;
+}
+
+.red-dot {
+  background-color: #ff808b;
+}
+
+.orange-dot {
+  background-color: #f4be5e;
+}
+
+/**************************tabs wrapper*******************/
+
+.min-height-tab-wrapper {
+  min-height: calc(100vh - 125px);
+}
+
+#file-input {
+  display: none;
+}
+
+
+
+/*******************************************/
+
+.model-width-622px {
+  width: 622px !important;
+}
+
+.input-field-icons {
+  position: absolute;
+  right: 0;
+  top: 34px;
+}
+
+.profile-active-section i {
+  color: #5e81f4;
+}
+.profile-active-section .profile-heading-text {
+  color: #5e81f4;
+}

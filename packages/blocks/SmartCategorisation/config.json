@@ -1,0 +1,61 @@
+{
+  "id": "SmartCategorisation",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/SmartCategorisation",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SmartCategorisation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SmartCategorisation": {
+        "file": "SmartCategorisation.tsx",
+        "extends": "SmartCategorisationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SmartCategorisationController",
+            "path": "./SmartCategorisationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SmartCategorisationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "SmartCategorisation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "SmartCategorisationBlock": {
+        "file": "SmartCategorisationBlock.tsx",
+        "extends": "SmartCategorisationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "SmartCategorisationController",
+            "path": "./SmartCategorisationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./SmartCategorisationController"
+          }
+        ]
+      }
+    }
+  }
+}

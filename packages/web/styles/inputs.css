@@ -1,0 +1,12 @@
+.op-input-primary {
+    @apply border border-light-100 text-secondary-100 font-bold text-xs rounded-md px-4 py-2 h-9;
+}
+
+.op-input-primary::placeholder {
+    @apply text-secondary-100;
+}
+
+.okyd__placeholder,
+.okyd__single-value {
+    @apply text-secondary-100 font-bold text-xs !important;
+}

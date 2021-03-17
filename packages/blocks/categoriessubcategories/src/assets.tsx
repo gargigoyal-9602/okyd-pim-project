@@ -1,0 +1,17 @@
+export const upArrow = require("../assets/up.png");
+export const downArrow = require("../assets/down.png");
+export const checked = require("../assets/check_box.png");
+export const unchecked = require("../assets/blank_check_box.png");
+export const Delete = require("../assets/delete.png");
+export const menuIcon = require("../assets/menu.png");
+export const menuDownIcon = require("../assets/menu-down.png");
+export const logsWighBgActiveIcon = require("../assets/logs-with-bg.png");
+export const timeWithBgIcon = require("../assets/time-with-bg.png");
+export const uploadIcon = require("../assets/upload.png");
+export const deleteIcon = require("../assets/delete.png");
+export const searchIcon = require("../assets/search-with-bg.png");
+export const updateIcon = require("../assets/update.png");
+export const addIcon = require("../assets/add.png");
+export const atozIcon = require("../assets/atoz.png");
+export const totalCategoriesIcon = require("../assets/total-categories.png");
+export const totalProductsIcon = require("../assets/total-products.png");

@@ -1,0 +1,61 @@
+{
+  "id": "Documentation",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/Documentation",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Documentation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "Documentation": {
+        "file": "Documentation.tsx",
+        "extends": "DocumentationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DocumentationController",
+            "path": "./DocumentationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DocumentationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "Documentation"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "DocumentationBlock": {
+        "file": "DocumentationBlock.tsx",
+        "extends": "DocumentationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "DocumentationController",
+            "path": "./DocumentationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./DocumentationController"
+          }
+        ]
+      }
+    }
+  }
+}

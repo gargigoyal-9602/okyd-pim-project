@@ -1,0 +1,22 @@
+.oked-editor {
+  @apply border-0 border-b border-light-700 font-lato rounded-none !important;
+  height: 256px;
+}
+
+[class^='EditorToolbar__root'] {
+  @apply border-0 m-0 !important;
+}
+
+[class^='IconButton__root'] {
+  @apply border-light-100;
+}
+
+[class^='IconButton__icon'] {
+  @apply opacity-40;
+}
+
+.oked-editor select {
+  height: 30px;
+  padding: 0 !important;
+  @apply text-secondary-200;
+}

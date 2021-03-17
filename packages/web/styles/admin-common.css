@@ -1,0 +1,79 @@
+/* admin common */
+.admin-wrapper {
+  @apply bg-light-200 flex;
+}
+
+/* admin sidebar */
+.admin-sidebar {
+  @apply w-60 px-4 py-6 bg-white h-screen fixed overflow-auto;
+}
+
+.admin-sidebar-collapsed {
+  @apply w-20 px-4 py-6 bg-white h-screen fixed overflow-auto border-r border-light-400;
+}
+
+.admin-body-container {
+  @apply pl-60 pr-8 min-h-screen w-full;
+}
+
+.admin-body-container-collapsed {
+  @apply pl-20 pr-8 min-h-screen w-full;
+}
+
+.admin-body {
+  @apply w-full pl-4;
+}
+
+.admin-body-collapsed {
+  @apply w-full pl-4;
+}
+
+.admin-page-title-wrapper {
+  @apply flex items-center py-6;
+}
+
+.admin-page-title {
+  @apply text-secondary-base font-bold text-lg ml-5;
+}
+
+.admin-sidebar-menu {
+  @apply my-5 overflow-auto;
+
+  height: calc(100% - 88px);
+}
+
+.admin-sidebar-menu-item {
+  @apply flex items-center py-3 px-3 rounded;
+}
+
+.sidebar-menu-active .admin-sidebar-menu-item,
+.admin-sidebar-menu-item:hover {
+  @apply bg-transparent-300;
+}
+
+.admin-sidebar-menu-item-text {
+  @apply text-primary-light text-sm font-bold;
+}
+
+.sidebar-menu-active .admin-sidebar-menu-item-text,
+.admin-sidebar-menu-item:hover .admin-sidebar-menu-item-text {
+  @apply text-secondary-base;
+}
+
+.sidebar-menu-active .admin-sidebar-menu-item i,
+.admin-sidebar-menu-item:hover i {
+  @apply text-primary-base;
+}
+
+.admin-sidebar-account {
+  @apply absolute bottom-2 left-0 right-0 px-5;
+}
+
+.admin-body-content {
+  @apply py-7 rounded-lg bg-white;
+}
+
+/* Filters */
+.admin-filters {
+  @apply px-8;
+}

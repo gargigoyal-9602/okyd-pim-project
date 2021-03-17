@@ -1,0 +1,61 @@
+{
+  "id": "OrderDetailView",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/OrderDetailView",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "OrderDetailView"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "OrderDetailView": {
+        "file": "OrderDetailView.tsx",
+        "extends": "OrderDetailViewController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OrderDetailViewController",
+            "path": "./OrderDetailViewController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OrderDetailViewController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "OrderDetailView"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "OrderDetailViewBlock": {
+        "file": "OrderDetailViewBlock.tsx",
+        "extends": "OrderDetailViewController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "OrderDetailViewController",
+            "path": "./OrderDetailViewController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./OrderDetailViewController"
+          }
+        ]
+      }
+    }
+  }
+}

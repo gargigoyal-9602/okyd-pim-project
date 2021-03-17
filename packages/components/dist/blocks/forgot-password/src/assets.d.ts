@@ -1,0 +1,14 @@
+export declare const addressBook: any;
+export declare const caret: any;
+export declare const check: any;
+export declare const checked: any;
+export declare const filled: any;
+export declare const img1: any;
+export declare const img2: any;
+export declare const img3: any;
+export declare const img: any;
+export declare const key: any;
+export declare const lock: any;
+export declare const phone: any;
+export declare const signature: any;
+export declare const superAdminImg: any;

@@ -1,0 +1,61 @@
+{
+  "id": "InventoryTrendAnalysis",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/InventoryTrendAnalysis",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InventoryTrendAnalysis"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InventoryTrendAnalysis": {
+        "file": "InventoryTrendAnalysis.tsx",
+        "extends": "InventoryTrendAnalysisController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InventoryTrendAnalysisController",
+            "path": "./InventoryTrendAnalysisController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InventoryTrendAnalysisController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InventoryTrendAnalysis"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InventoryTrendAnalysisBlock": {
+        "file": "InventoryTrendAnalysisBlock.tsx",
+        "extends": "InventoryTrendAnalysisController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InventoryTrendAnalysisController",
+            "path": "./InventoryTrendAnalysisController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InventoryTrendAnalysisController"
+          }
+        ]
+      }
+    }
+  }
+}

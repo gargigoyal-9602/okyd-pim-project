@@ -1,0 +1,102 @@
+.okyd-logo {
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.outer-wrapper .upper-wrapper {
+  background-image: radial-gradient(circle at 57% 48%, #5e81f4, #1b51e5 58%);
+  border-radius: 0 0px 47px 47px;
+  -webkit-box-shadow: -10px 11px 30px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: -10px 11px 30px 0 rgba(0, 0, 0, 0.16);
+  height: 50vh;
+}
+
+.outer-wrapper .upper-wrapper .top-infomation {
+  padding: 75px;
+}
+
+@media only screen and (max-width: 1680px) {
+  .outer-wrapper .upper-wrapper .top-infomation {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .outer-wrapper .upper-wrapper .top-infomation {
+    padding: 50px 10px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .outer-wrapper .upper-wrapper .top-infomation {
+    padding: 40px 0px;
+  }
+}
+
+.outer-wrapper .upper-wrapper .top-infomation p {
+  color: #d8d8d8;
+  font-size: 14px;
+  letter-spacing: 0.44px;
+  margin-top: 5px;
+}
+
+.outer-wrapper .upper-wrapper .admin-img {
+  position: absolute;
+  right: 0;
+  height: 50vh;
+}
+
+.outer-wrapper .botton-wrapper .inner-box {
+  -webkit-box-shadow: 80px 120px 504px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 80px 120px 504px 0 rgba(0, 0, 0, 0.16);
+  max-width: 562px;
+  width: 562px;
+  border-radius: 48px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  background-color: #fff;
+  padding: 49px 95px 87px;
+  top: 32%;
+}
+
+@media only screen and (max-width: 991px) {
+  .outer-wrapper .botton-wrapper .inner-box {
+    min-width: 400px;
+    max-width: 480px;
+    padding: 40px 40px 40px;
+  }
+}
+
+.outer-wrapper .copyright-info {
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  color: #8181a5;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 991px) {
+  .outer-wrapper .copyright-info {
+    bottom: 0px;
+    right: 8px;
+  }
+}
+
+/**************************************************/
+
+#file-input {
+  display: none;
+}
+
+.input-type-file label {
+  height: 104px;
+  width: 104px;
+  background-color: #eff3fe;
+}

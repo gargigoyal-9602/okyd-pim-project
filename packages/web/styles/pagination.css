@@ -1,0 +1,16 @@
+.pagination a {
+    position: relative;
+  }
+  
+  .pagination .active {
+    color: #1b51e5 !important;
+  }
+  
+  .pagination .active::after {
+    content: '';
+    height: 2px;
+    width: 36px;
+    background-color: #1b51e5;
+    position: absolute;
+    bottom: -25px;
+  }

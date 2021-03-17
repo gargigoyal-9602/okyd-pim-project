@@ -1,0 +1,61 @@
+{
+  "id": "MultitieredPricing",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/MultitieredPricing",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "MultitieredPricing"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MultitieredPricing": {
+        "file": "MultitieredPricing.tsx",
+        "extends": "MultitieredPricingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MultitieredPricingController",
+            "path": "./MultitieredPricingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MultitieredPricingController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "MultitieredPricing"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "MultitieredPricingBlock": {
+        "file": "MultitieredPricingBlock.tsx",
+        "extends": "MultitieredPricingController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "MultitieredPricingController",
+            "path": "./MultitieredPricingController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./MultitieredPricingController"
+          }
+        ]
+      }
+    }
+  }
+}

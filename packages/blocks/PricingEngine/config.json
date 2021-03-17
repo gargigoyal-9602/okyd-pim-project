@@ -1,0 +1,61 @@
+{
+  "id": "PricingEngine",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PricingEngine",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PricingEngine"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PricingEngine": {
+        "file": "PricingEngine.tsx",
+        "extends": "PricingEngineController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PricingEngineController",
+            "path": "./PricingEngineController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PricingEngineController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PricingEngine"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PricingEngineBlock": {
+        "file": "PricingEngineBlock.tsx",
+        "extends": "PricingEngineController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PricingEngineController",
+            "path": "./PricingEngineController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PricingEngineController"
+          }
+        ]
+      }
+    }
+  }
+}

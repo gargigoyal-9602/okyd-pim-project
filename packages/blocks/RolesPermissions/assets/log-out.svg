@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <path id="gk1qss8gma" d="M13.806 7.556l-4.667 4.667C8.722 12.639 8 12.348 8 11.75V9.084H4.222c-.37 0-.666-.297-.666-.667V5.751c0-.37.297-.667.666-.667H8V2.417c0-.594.72-.889 1.139-.472l4.667 4.667c.258.26.258.683 0 .944zm-8.473 4.528v-1.111c0-.184-.15-.334-.333-.334H2.667c-.492 0-.89-.397-.89-.888V4.417c0-.491.398-.889.89-.889H5c.183 0 .333-.15.333-.333V2.084c0-.183-.15-.333-.333-.333H2.667C1.194 1.75 0 2.945 0 4.417v5.334c0 1.472 1.194 2.666 2.667 2.666H5c.183 0 .333-.15.333-.333z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g transform="translate(-185 -376) translate(165 96) translate(0 267) translate(20 13)">
+                        <circle cx="12" cy="12" r="12" fill="#FE6720" fill-rule="nonzero"/>
+                        <g transform="translate(5 5)">
+                            <mask id="89svdpipcb" fill="#fff">
+                                <use xlink:href="#gk1qss8gma"/>
+                            </mask>
+                            <use fill="#FFF" fill-opacity="0" fill-rule="nonzero" xlink:href="#gk1qss8gma"/>
+                            <g fill="#FFF" mask="url(#89svdpipcb)">
+                                <path d="M0 0H14V14H0z"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

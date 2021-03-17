@@ -1,0 +1,41 @@
+/* Dealer Common Styles */
+.dealer-wrapper {
+    @apply bg-light-200 flex py-8;
+}
+
+.dealer-sidebar {
+    @apply w-60 bg-white fixed overflow-auto shadow-dealerCard rounded;
+}
+
+.dealer-sidebar-menu {
+    @apply overflow-auto;
+}
+
+.dealer-sidebar-menu-item {
+    @apply flex items-center py-3 px-4;
+}
+
+.dealer-sidebar-menu-item-text {
+    @apply text-secondary-200 text-sm;
+}
+
+.dealer-body-container {
+    @apply pl-60 pr-8 min-h-screen w-full;
+}
+
+.dealer-body-content {
+    @apply pb-6 rounded-lg bg-white shadow-dealerCard;
+}
+
+.dealer-card-title {
+    @apply flex items-center text-base text-secondary-200 border-b border-light-500 px-5 py-5;
+}
+
+.dealer-card-title-secondary {
+    @apply text-base text-secondary-200 border-b border-light-500 px-5 py-14px;
+}
+
+/* Filters */
+.dealer-filters {
+    @apply px-0;
+}

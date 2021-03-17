@@ -1,0 +1,61 @@
+{
+  "id": "AuditTrail",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/AuditTrail",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AuditTrail"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AuditTrail": {
+        "file": "AuditTrail.tsx",
+        "extends": "AuditTrailController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AuditTrailController",
+            "path": "./AuditTrailController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AuditTrailController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "AuditTrail"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "AuditTrailBlock": {
+        "file": "AuditTrailBlock.tsx",
+        "extends": "AuditTrailController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "AuditTrailController",
+            "path": "./AuditTrailController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./AuditTrailController"
+          }
+        ]
+      }
+    }
+  }
+}

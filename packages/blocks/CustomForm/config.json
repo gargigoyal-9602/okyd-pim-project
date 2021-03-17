@@ -1,0 +1,61 @@
+{
+  "id": "CustomForm",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/CustomForm",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CustomForm"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CustomForm": {
+        "file": "CustomForm.tsx",
+        "extends": "CustomFormController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CustomFormController",
+            "path": "./CustomFormController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CustomFormController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "CustomForm"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "CustomFormBlock": {
+        "file": "CustomFormBlock.tsx",
+        "extends": "CustomFormController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "CustomFormController",
+            "path": "./CustomFormController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./CustomFormController"
+          }
+        ]
+      }
+    }
+  }
+}

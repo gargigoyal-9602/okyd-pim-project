@@ -1,0 +1,61 @@
+{
+  "id": "GraphicalCharts",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/GraphicalCharts",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GraphicalCharts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GraphicalCharts": {
+        "file": "GraphicalCharts.tsx",
+        "extends": "GraphicalChartsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GraphicalChartsController",
+            "path": "./GraphicalChartsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GraphicalChartsController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "GraphicalCharts"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "GraphicalChartsBlock": {
+        "file": "GraphicalChartsBlock.tsx",
+        "extends": "GraphicalChartsController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "GraphicalChartsController",
+            "path": "./GraphicalChartsController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./GraphicalChartsController"
+          }
+        ]
+      }
+    }
+  }
+}

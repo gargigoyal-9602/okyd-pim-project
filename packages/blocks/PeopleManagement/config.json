@@ -1,0 +1,61 @@
+{
+  "id": "PeopleManagement",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/PeopleManagement",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PeopleManagement"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PeopleManagement": {
+        "file": "PeopleManagement.tsx",
+        "extends": "PeopleManagementController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PeopleManagementController",
+            "path": "./PeopleManagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PeopleManagementController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "PeopleManagement"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "PeopleManagementBlock": {
+        "file": "PeopleManagementBlock.tsx",
+        "extends": "PeopleManagementController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "PeopleManagementController",
+            "path": "./PeopleManagementController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./PeopleManagementController"
+          }
+        ]
+      }
+    }
+  }
+}

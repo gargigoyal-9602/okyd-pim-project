@@ -1,0 +1,61 @@
+{
+  "id": "InventoryManagementIntegration",
+  "verion": "0.0.1",
+  "status": "preAlpha",
+  "path": "./packages/blocks/InventoryManagementIntegration",
+  "assembler-adapters": [],
+  "mobile": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InventoryManagementIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InventoryManagementIntegration": {
+        "file": "InventoryManagementIntegration.tsx",
+        "extends": "InventoryManagementIntegrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InventoryManagementIntegrationController",
+            "path": "./InventoryManagementIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InventoryManagementIntegrationController"
+          }
+        ]
+      }
+    }
+  },
+  "web": {
+    "merge-engine-navigation": {},
+    "assembler-exports": [
+      "InventoryManagementIntegration"
+    ],
+    "assembler-dependencies": [],
+    "catalog-dependencies": [],
+    "assembler-devDependencies": [],
+    "merge-engine-screens": {
+      "InventoryManagementIntegrationBlock": {
+        "file": "InventoryManagementIntegrationBlock.tsx",
+        "extends": "InventoryManagementIntegrationController",
+        "configURL": "",
+        "validationRulesURL": "",
+        "imports": [
+          {
+            "value": "InventoryManagementIntegrationController",
+            "path": "./InventoryManagementIntegrationController"
+          },
+          {
+            "value": "{Props}",
+            "path": "./InventoryManagementIntegrationController"
+          }
+        ]
+      }
+    }
+  }
+}
